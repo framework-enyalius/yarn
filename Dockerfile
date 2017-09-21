@@ -6,3 +6,4 @@ RUN apk --update add yarn
 
 
 RUN mkdir /app
+WORKDIR /app
